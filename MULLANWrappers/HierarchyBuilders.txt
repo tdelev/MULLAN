@@ -1,0 +1,3 @@
+Random mulan.classifier.hierarchy_builders.RandomHierarchyBuilder
+BalancedClustering mulan.classifier.hierarchy_builders.BalancedClusteringHierarchyBuilder
+Clustering mulan.classifier.hierarchy_builders.ClusteringHierarchyBuilder
