@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<labels xmlns="http://mulan.sourceforge.net/labels">
+    <label name="Class2"/>
+    <label name="Class1"/>
+    <label name="Class4"/>
+    <label name="Class3"/>
+    <label name="Class6"/>
+    <label name="Class5"/>
+</labels>
