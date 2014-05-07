@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<labels xmlns="http://mulan.sourceforge.net/labels">
+    <label name="MetaLabel 1">
+        <label name="MetaLabel 3">
+            <label name="Class-39-758_6"/>
+        </label>
+        <label name="MetaLabel 2">
+            <label name="MetaLabel 5">
+                <label name="Class-17-592_0"/>
+            </label>
+            <label name="MetaLabel 4">
+                <label name="MetaLabel 8">
+                    <label name="MetaLabel 17">
+                        <label name="Class-34-V13_02"/>
+                    </label>
+                    <label name="MetaLabel 16">
+                        <label name="MetaLabel 33">
+                            <label name="Class-22-789_09"/>
+                        </label>
+                        <label name="MetaLabel 32">
+                            <label name="MetaLabel 65">
+                                <label name="Class-3-759_89"/>
+                            </label>
+                            <label name="MetaLabel 64">
+                                <label name="MetaLabel 128">
+                                    <label name="MetaLabel 257">
+                                        <label name="Class-40-741_90"/>
+                                    </label>
+                                    <label name="MetaLabel 256">
+                                        <label name="MetaLabel 512">
+                                            <label name="MetaLabel 1024">
+                                                <label name="MetaLabel 2048">
+                                                    <label name="MetaLabel 4097">
+                                                        <label name="Class-24-596_54"/>
+                                                    </label>
+                                                    <label name="MetaLabel 4096">
+                                                        <label name="MetaLabel 8193">
+                                                            <label name="Class-38-593_89"/>
+                                                        </label>
+                                                        <label name="MetaLabel 8192">
+                                                            <label name="MetaLabel 16384">
+                                                                <label name="MetaLabel 32768">
+                                                                    <label name="MetaLabel 65536">
+                                                                        <label name="MetaLabel 131072">
+                                                                            <label name="MetaLabel 262145">
+                                                                                <label name="Class-30-277_00"/>
+                                                                            </label>
+                                                                            <label name="MetaLabel 262144">
+                                                                                <label name="MetaLabel 524289">
+                                                                                    <label name="Class-4-753_0"/>
+                                                                                </label>
+                                                                                <label name="MetaLabel 524288">
+                                                                                    <label name="MetaLabel 1048577">
+                                                                                        <label name="Class-18-786_59"/>
+                                                                                    </label>
+                                                                                    <label name="MetaLabel 1048576">
+                                                                                        <label name="MetaLabel 2097153">
+                                                                                            <label name="Class-15-593_1"/>
+                                                                                        </label>
+                                                                                        <label name="MetaLabel 2097152">
+                                                                                            <label name="MetaLabel 4194305">
+                                                                                                <label name="Class-23-786_50"/>
+                                                                                            </label>
+                                                                                            <label name="MetaLabel 4194304">
+                                                                                                <label name="MetaLabel 8388609">
+                                                                                                    <label name="Class-36-788_30"/>
+                                                                                                </label>
+                                                                                                <label name="MetaLabel 8388608">
+                                                                                                    <label name="MetaLabel 16777217">
+                                                                                                        <label name="Class-21-795_5"/>
+                                                                                                    </label>
+                                                                                                    <label name="MetaLabel 16777216">
+                                                                                                        <label name="MetaLabel 33554433">
+                                                                                                            <label name="Class-29-783_0"/>
+                                                                                                        </label>
+                                                                                                        <label name="MetaLabel 33554432">
+                                                                                                            <label name="MetaLabel 67108864">
+                                                                                                                <label name="MetaLabel 134217729">
+                                                                                                                    <label name="Class-14-789_00"/>
+                                                                                                                </label>
+                                                                                                                <label name="MetaLabel 134217728">
+                                                                                                                    <label name="MetaLabel 268435457">
+                                                                                                                        <label name="Class-13-791_0"/>
+                                                                                                                    </label>
+                                                                                                                    <label name="MetaLabel 268435456">
+                                                                                                                        <label name="MetaLabel 536870912">
+                                                                                                                            <label name="MetaLabel 1073741825">
+                                                                                                                                <label name="Class-2-786_09"/>
+                                                                                                                            </label>
+                                                                                                                            <label name="MetaLabel 1073741824">
+                                                                                                                                <label name="MetaLabel 2147483648">
+                                                                                                                                    <label name="MetaLabel 4294967297">
+                                                                                                                                        <label name="Class-0-593_70"/>
+                                                                                                                                    </label>
+                                                                                                                                    <label name="MetaLabel 4294967296">
+                                                                                                                                        <label name="MetaLabel 8589934593">
+                                                                                                                                            <label name="Class-44-786_07"/>
+                                                                                                                                        </label>
+                                                                                                                                        <label name="MetaLabel 8589934592">
+                                                                                                                                            <label name="MetaLabel 17179869184">
+                                                                                                                                                <label name="MetaLabel 34359738368">
+                                                                                                                                                    <label name="MetaLabel 68719476736">
+                                                                                                                                                        <label name="MetaLabel 137438953473">
+                                                                                                                                                            <label name="Class-5-786_2"/>
+                                                                                                                                                        </label>
+                                                                                                                                                        <label name="MetaLabel 137438953472">
+                                                                                                                                                            <label name="MetaLabel 274877906944">
+                                                                                                                                                                <label name="MetaLabel 549755813889">
+                                                                                                                                                                    <label name="Class-32-486"/>
+                                                                                                                                                                </label>
+                                                                                                                                                                <label name="MetaLabel 549755813888">
+                                                                                                                                                                    <label name="MetaLabel 1099511627777">
+                                                                                                                                                                        <label name="Class-20-V67_09"/>
+                                                                                                                                                                    </label>
+                                                                                                                                                                    <label name="MetaLabel 1099511627776">
+                                                                                                                                                                        <label name="MetaLabel 2199023255552">
+                                                                                                                                                                            <label name="MetaLabel 4398046511105">
+                                                                                                                                                                                <label name="Class-6-V72_5"/>
+                                                                                                                                                                            </label>
+                                                                                                                                                                            <label name="MetaLabel 4398046511104">
+                                                                                                                                                                                <label name="MetaLabel 8796093022209">
+                                                                                                                                                                                    <label name="Class-33-788_41"/>
+                                                                                                                                                                                </label>
+                                                                                                                                                                                <label name="MetaLabel 8796093022208">
+                                                                                                                                                                                    <label name="Class-26-V42_0"/>
+                                                                                                                                                                                </label>
+                                                                                                                                                                            </label>
+                                                                                                                                                                        </label>
+                                                                                                                                                                        <label name="MetaLabel 2199023255553">
+                                                                                                                                                                            <label name="Class-28-753_21"/>
+                                                                                                                                                                        </label>
+                                                                                                                                                                    </label>
+                                                                                                                                                                </label>
+                                                                                                                                                            </label>
+                                                                                                                                                            <label name="MetaLabel 274877906945">
+                                                                                                                                                                <label name="Class-1-079_99"/>
+                                                                                                                                                            </label>
+                                                                                                                                                        </label>
+                                                                                                                                                    </label>
+                                                                                                                                                    <label name="MetaLabel 68719476737">
+                                                                                                                                                        <label name="Class-27-786_05"/>
+                                                                                                                                                    </label>
+                                                                                                                                                </label>
+                                                                                                                                                <label name="MetaLabel 34359738369">
+                                                                                                                                                    <label name="Class-31-780_6"/>
+                                                                                                                                                </label>
+                                                                                                                                            </label>
+                                                                                                                                            <label name="MetaLabel 17179869185">
+                                                                                                                                                <label name="Class-16-462"/>
+                                                                                                                                            </label>
+                                                                                                                                        </label>
+                                                                                                                                    </label>
+                                                                                                                                </label>
+                                                                                                                                <label name="MetaLabel 2147483649">
+                                                                                                                                    <label name="Class-7-511_9"/>
+                                                                                                                                </label>
+                                                                                                                            </label>
+                                                                                                                        </label>
+                                                                                                                        <label name="MetaLabel 536870913">
+                                                                                                                            <label name="Class-19-785_6"/>
+                                                                                                                        </label>
+                                                                                                                    </label>
+                                                                                                                </label>
+                                                                                                            </label>
+                                                                                                            <label name="MetaLabel 67108865">
+                                                                                                                <label name="Class-11-593_5"/>
+                                                                                                            </label>
+                                                                                                        </label>
+                                                                                                    </label>
+                                                                                                </label>
+                                                                                            </label>
+                                                                                        </label>
+                                                                                    </label>
+                                                                                </label>
+                                                                            </label>
+                                                                        </label>
+                                                                        <label name="MetaLabel 131073">
+                                                                            <label name="Class-42-599_7"/>
+                                                                        </label>
+                                                                    </label>
+                                                                    <label name="MetaLabel 65537">
+                                                                        <label name="Class-41-591"/>
+                                                                    </label>
+                                                                </label>
+                                                                <label name="MetaLabel 32769">
+                                                                    <label name="Class-35-493_90"/>
+                                                                </label>
+                                                            </label>
+                                                            <label name="MetaLabel 16385">
+                                                                <label name="Class-25-787_03"/>
+                                                            </label>
+                                                        </label>
+                                                    </label>
+                                                </label>
+                                                <label name="MetaLabel 2049">
+                                                    <label name="Class-12-V13_09"/>
+                                                </label>
+                                            </label>
+                                            <label name="MetaLabel 1025">
+                                                <label name="Class-43-279_12"/>
+                                            </label>
+                                        </label>
+                                        <label name="MetaLabel 513">
+                                            <label name="Class-37-753_3"/>
+                                        </label>
+                                    </label>
+                                </label>
+                                <label name="MetaLabel 129">
+                                    <label name="Class-10-518_0"/>
+                                </label>
+                            </label>
+                        </label>
+                    </label>
+                </label>
+                <label name="MetaLabel 9">
+                    <label name="Class-8-596_8"/>
+                </label>
+            </label>
+        </label>
+    </label>
+    <label name="MetaLabel 0">
+        <label name="Class-9-599_0"/>
+    </label>
+</labels>

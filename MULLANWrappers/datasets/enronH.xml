@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<labels xmlns="http://mulan.sourceforge.net/labels">
+    <label name="MetaLabel 1">
+        <label name="MetaLabel 1.2">
+            <label name="B.B6"/>
+            <label name="B.B9"/>
+        </label>
+        <label name="MetaLabel 1.1">
+            <label name="B.B7"/>
+            <label name="D.D18"/>
+            <label name="D.D17"/>
+            <label name="C.C11"/>
+        </label>
+        <label name="MetaLabel 1.4">
+            <label name="C.C12"/>
+            <label name="D.D19"/>
+            <label name="A.A8"/>
+            <label name="B.B10"/>
+        </label>
+        <label name="MetaLabel 1.3">
+            <label name="C.C13"/>
+            <label name="B.B5"/>
+            <label name="B.B8"/>
+            <label name="A.A7"/>
+        </label>
+    </label>
+    <label name="MetaLabel 4">
+        <label name="MetaLabel 4.2">
+            <label name="B.B1"/>
+            <label name="B.B2"/>
+        </label>
+        <label name="MetaLabel 4.3">
+            <label name="D.D16"/>
+            <label name="C.C1"/>
+            <label name="C.C6"/>
+        </label>
+        <label name="MetaLabel 4.1">
+            <label name="A.A1"/>
+            <label name="D.D15"/>
+            <label name="C.C7"/>
+        </label>
+        <label name="MetaLabel 4.4">
+            <label name="D.D5"/>
+            <label name="C.C4"/>
+            <label name="D.D14"/>
+        </label>
+    </label>
+    <label name="MetaLabel 2">
+        <label name="MetaLabel 2.1">
+            <label name="D.D4"/>
+            <label name="C.C10"/>
+            <label name="D.D13"/>
+            <label name="D.D10"/>
+        </label>
+        <label name="MetaLabel 2.4">
+            <label name="C.C3"/>
+            <label name="D.D1"/>
+            <label name="A.A5"/>
+            <label name="D.D12"/>
+        </label>
+        <label name="MetaLabel 2.3">
+            <label name="C.C5"/>
+            <label name="D.D11"/>
+        </label>
+        <label name="MetaLabel 2.2">
+            <label name="B.B4"/>
+            <label name="A.A4"/>
+            <label name="C.C2"/>
+            <label name="A.A6"/>
+        </label>
+    </label>
+    <label name="MetaLabel 3">
+        <label name="MetaLabel 3.4">
+            <label name="D.D2"/>
+            <label name="A.A3"/>
+        </label>
+        <label name="MetaLabel 3.3">
+            <label name="D.D3"/>
+            <label name="B.B13"/>
+            <label name="C.C9"/>
+            <label name="C.C8"/>
+        </label>
+        <label name="MetaLabel 3.2">
+            <label name="D.D9"/>
+            <label name="D.D7"/>
+            <label name="D.D6"/>
+            <label name="B.B11"/>
+        </label>
+        <label name="MetaLabel 3.1">
+            <label name="D.D8"/>
+            <label name="B.B3"/>
+            <label name="B.B12"/>
+            <label name="A.A2"/>
+        </label>
+    </label>
+</labels>

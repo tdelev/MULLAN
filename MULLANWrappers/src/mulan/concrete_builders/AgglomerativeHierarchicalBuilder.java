@@ -6,9 +6,12 @@ package mulan.concrete_builders;
 
 import java.io.File;
 import java.io.IOException;
+import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -34,6 +37,7 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
 import weka.clusterers.HierarchicalClusterer;
+import weka.clusterers.HierarchicalClusterer.Node;
 import weka.core.Attribute;
 import weka.core.ChebyshevDistance;
 import weka.core.DistanceFunction;
@@ -51,17 +55,16 @@ import weka.core.converters.ArffSaver;
  */
 public class AgglomerativeHierarchicalBuilder extends HierarchyBuilder {
 	private Document labelsXMLDoc;
-	private int numPartitions;
 	private DistanceFunction distanceFunction;
 	private String linkType;
 	public final static String SINGLE = "SINGLE";
 	public final static String COMPLETE = "COMPLETE";
-	public final static String AVERAGE = "COMPLETE";
-	public final static String MEAN = "COMPLETE";
-	public final static String CENTROID = "COMPLETE";
-	public final static String WARD = "COMPLETE";
-	public final static String ADJCOMPLETE = "COMPLETE";
-	public final static String NEIGHBOR_JOINING = "COMPLETE";
+	public final static String AVERAGE = "AVERAGE";
+	public final static String MEAN = "MEAN";
+	public final static String CENTROID = "CENTROID";
+	public final static String WARD = "WARD";
+	public final static String ADJCOMPLETE = "ADJCOMPLETE";
+	public final static String NEIGHBOR_JOINING = "NEIGHBOR_JOINING";
 
 	public final static DistanceFunction EUCLIDEAN_DISTANCE;
 	public final static DistanceFunction CHEBYSHEV_DISTANCE;
@@ -75,13 +78,12 @@ public class AgglomerativeHierarchicalBuilder extends HierarchyBuilder {
 	}
 
 	AgglomerativeHierarchicalBuilder() {
-		this(2, CHEBYSHEV_DISTANCE, SINGLE);
+		this(EUCLIDEAN_DISTANCE, SINGLE);
 	}
 
-	AgglomerativeHierarchicalBuilder(int numPartitions,
-			DistanceFunction distanceFunction, String linkType) {
-		super(numPartitions, null);
-		this.numPartitions = numPartitions;
+	AgglomerativeHierarchicalBuilder(DistanceFunction distanceFunction,
+			String linkType) {
+		super(0, null);
 		this.distanceFunction = distanceFunction;
 		this.linkType = linkType;
 	}
@@ -105,46 +107,17 @@ public class AgglomerativeHierarchicalBuilder extends HierarchyBuilder {
 	 */
 	public LabelsMetaData buildLabelHierarchy(MultiLabelInstances mlData)
 			throws Exception {
-		if (numPartitions > mlData.getNumLabels()) {
-			throw new IllegalArgumentException(
-					"Number of labels is smaller than the number of partitions");
-		}
 		Set<String> setOfLabels = mlData.getLabelsMetaData().getLabelNames();
 		List<String> listOfLabels = new ArrayList<String>();
 		for (String label : setOfLabels) {
 			listOfLabels.add(label);
 		}
-		ArrayList<String>[] childrenLabels = clustering(numPartitions,
-				listOfLabels, mlData);
-
-		LabelsMetaDataImpl metaData = new LabelsMetaDataImpl();
-		for (int i = 0; i < numPartitions; i++) {
-			if (childrenLabels[i].isEmpty()) {
-				continue;
-			}
-			if (childrenLabels[i].size() == 1) {
-				metaData.addRootNode(new LabelNodeImpl(childrenLabels[i].get(0)));
-				continue;
-			}
-			if (childrenLabels[i].size() > 1) {
-				LabelNodeImpl metaLabel = new LabelNodeImpl("MetaLabel "
-						+ (i + 1));
-				createLabelsMetaDataRecursive(metaLabel, childrenLabels[i],
-						mlData);
-				metaData.addRootNode(metaLabel);
-			}
-		}
-
+		LabelsMetaData metaData = clustering(listOfLabels, mlData);
 		return metaData;
 	}
 
-	private ArrayList<String>[] clustering(int clusters, List<String> labels,
+	private LabelsMetaData clustering(List<String> labels,
 			MultiLabelInstances mlData) {
-		ArrayList<String>[] childrenLabels = new ArrayList[clusters];
-		for (int i = 0; i < clusters; i++) {
-			childrenLabels[i] = new ArrayList<String>();
-		}
-
 		// transpose data and keep only labels in the parameter list
 		int numInstances = mlData.getDataSet().numInstances();
 		ArrayList<Attribute> attInfo = new ArrayList<Attribute>(numInstances);
@@ -171,54 +144,56 @@ public class AgglomerativeHierarchicalBuilder extends HierarchyBuilder {
 					.instance(0), 1, values);
 			transposed.add(newInstance);
 		}
-		HierarchicalClusterer hc = new HierarchicalClusterer();
+		AgglomerativeClusterer ahc = new AgglomerativeClusterer(
+				distanceFunction, linkType);
 		try {
-			hc.setNumClusters(clusters);
 			System.out.println("hierarchical clustering");
-			hc.setDistanceFunction(distanceFunction);
-			hc.setLinkType(new SelectedTag(linkType,
-					HierarchicalClusterer.TAGS_LINK_TYPE));
-
-			hc.buildClusterer(transposed);
-			// return the clustering
-			for (int i = 0; i < labels.size(); i++) {
-				int labelIndex = hc.clusterInstance(transposed.instance(i));
-				childrenLabels[labelIndex].add(labels.get(i));
-			}
+			ahc.buildClusterer(transposed);
+			//printCluster(ahc.getRoot(), ahc, labels, 1);
 		} catch (Exception e) {
 			Logger.getLogger(HierarchyBuilder.class.getName()).log(
 					Level.SEVERE, null, e);
 		}
-		return childrenLabels;
+		LabelsMetaDataImpl metaData = new LabelsMetaDataImpl();
+		LabelNodeImpl metaLabel = new LabelNodeImpl("MetaLabel 1");
+		metaData.addRootNode(metaLabel);
+		createLabelsMetaDataRecursive(metaData, metaLabel, labels, ahc.getRoot(), 1);
+		return metaData;
 	}
 
-	private void createLabelsMetaDataRecursive(LabelNodeImpl node,
-			List<String> labels, MultiLabelInstances mlData) {
-		if (labels.size() <= numPartitions) {
-			for (int i = 0; i < labels.size(); i++) {
-				LabelNodeImpl child = new LabelNodeImpl(labels.get(i));
-				node.addChildNode(child);
-			}
-			return;
+	void printCluster(Node node, AgglomerativeClusterer ahc,
+			List<String> labels, int level) {
+		if (node != null) {
+			System.out.println("LEVEL: " + level);
+			System.out.println("Left: " + labels.get(node.m_iLeftInstance));
+			System.out.println("Right: "
+					+ labels.get(node.m_iRightInstance));
+			printCluster(node.m_left, ahc, labels, level + 1);
+			printCluster(node.m_right, ahc, labels, level + 1);
 		}
-		ArrayList<String>[] childrenLabels = clustering(numPartitions, labels,
-				mlData);
-		for (int i = 0; i < numPartitions; i++) {
-			if (childrenLabels[i].isEmpty()) {
-				continue;
+	}
+
+	private void createLabelsMetaDataRecursive(LabelsMetaDataImpl metaData, LabelNodeImpl node,
+			List<String> labels, Node clusterNode, int level) {
+		if (clusterNode != null) {
+			LabelNodeImpl leftNode = new LabelNodeImpl(node.getName() + "1");
+			if(clusterNode.m_left == null) {
+				LabelNodeImpl terminalNode = new LabelNodeImpl(labels.get(clusterNode.m_iLeftInstance));
+				leftNode.addChildNode(terminalNode);
 			}
-			if (childrenLabels[i].size() == 1) {
-				LabelNodeImpl child = new LabelNodeImpl(
-						childrenLabels[i].get(0));
-				node.addChildNode(child);
-				continue;
+			//metaData.addRootNode(leftNode);
+			LabelNodeImpl rightNode = new LabelNodeImpl(node.getName() + "0");
+			if(clusterNode.m_right == null) {
+				LabelNodeImpl terminalNode = new LabelNodeImpl(labels.get(clusterNode.m_iRightInstance));
+				rightNode.addChildNode(terminalNode);
 			}
-			if (childrenLabels[i].size() > 1) {
-				LabelNodeImpl child = new LabelNodeImpl(node.getName() + "."
-						+ (i + 1));
-				node.addChildNode(child);
-				createLabelsMetaDataRecursive(child, childrenLabels[i], mlData);
-			}
+			//metaData.addRootNode(rightNode);
+			createLabelsMetaDataRecursive(metaData, leftNode, labels, clusterNode.m_left,
+					level + 1);
+			createLabelsMetaDataRecursive(metaData, rightNode, labels,
+					clusterNode.m_right, level + 1);
+			node.addChildNode(leftNode);
+			node.addChildNode(rightNode);
 		}
 	}
 
@@ -239,12 +214,25 @@ public class AgglomerativeHierarchicalBuilder extends HierarchyBuilder {
 		rootElement
 				.setAttribute("xmlns", "http://mulan.sourceforge.net/labels");
 		labelsXMLDoc.appendChild(rootElement);
-		for (LabelNode rootLabel : metaData.getRootLabels()) {
+		Set<LabelNode> root = metaData.getRootLabels();
+		LabelNode first = root.iterator().next();
+		for (LabelNode rootLabel : first.getChildren()) {
 			Element newLabelElem = labelsXMLDoc.createElement("label");
-			newLabelElem.setAttribute("name", rootLabel.getName());
+			String name = rootLabel.getName();
+			newLabelElem.setAttribute("name", binaryToInt(name));
 			appendElement(newLabelElem, rootLabel);
 			rootElement.appendChild(newLabelElem);
 		}
+	}
+	
+	String binaryToInt(String label) {
+		if(label.startsWith("MetaLabel")) {
+			String number = label.split(" ")[1];
+			//long a = Long.parseLong(number, 2);
+			BigInteger bi = new BigInteger(number, 2);
+			return String.format("MetaLabel %s", bi.toString());
+		}
+		return label;
 	}
 
 	protected void saveToXMLFile(String fileName) {
@@ -268,7 +256,8 @@ public class AgglomerativeHierarchicalBuilder extends HierarchyBuilder {
 	protected void appendElement(Element labelElem, LabelNode labelNode) {
 		for (LabelNode childNode : labelNode.getChildren()) {
 			Element newLabelElem = labelsXMLDoc.createElement("label");
-			newLabelElem.setAttribute("name", childNode.getName());
+			
+			newLabelElem.setAttribute("name", binaryToInt(childNode.getName()));
 			appendElement(newLabelElem, childNode);
 			labelElem.appendChild(newLabelElem);
 		}

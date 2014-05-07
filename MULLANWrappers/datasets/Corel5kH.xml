@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<labels xmlns="http://mulan.sourceforge.net/labels">
+    <label name="MetaLabel 1">
+        <label name="MetaLabel 1.2">
+            <label name="MetaLabel 1.2.3">
+                <label name="MetaLabel 1.2.3.3">
+                    <label name="chairs"/>
+                    <label name="MetaLabel 1.2.3.3.1">
+                        <label name="whales"/>
+                        <label name="entrance"/>
+                    </label>
+                    <label name="maui"/>
+                </label>
+                <label name="MetaLabel 1.2.3.2">
+                    <label name="runway"/>
+                    <label name="MetaLabel 1.2.3.2.1">
+                        <label name="cougar"/>
+                        <label name="porcupine"/>
+                    </label>
+                    <label name="MetaLabel 1.2.3.2.3">
+                        <label name="barn"/>
+                        <label name="tomb"/>
+                    </label>
+                </label>
+                <label name="MetaLabel 1.2.3.1">
+                    <label name="MetaLabel 1.2.3.1.2">
+                        <label name="kauai"/>
+                        <label name="run"/>
+                    </label>
+                    <label name="MetaLabel 1.2.3.1.1">
+                        <label name="truck"/>
+                        <label name="relief"/>
+                    </label>
+                    <label name="horns"/>
+                </label>
+            </label>
+            <label name="MetaLabel 1.2.2">
+                <label name="MetaLabel 1.2.2.1">
+                    <label name="lawn"/>
+                    <label name="MetaLabel 1.2.2.1.2">
+                        <label name="waterfalls"/>
+                        <label name="pups"/>
+                    </label>
+                    <label name="MetaLabel 1.2.2.1.3">
+                        <label name="bench"/>
+                        <label name="vineyard"/>
+                    </label>
+                </label>
+                <label name="MetaLabel 1.2.2.2">
+                    <label name="MetaLabel 1.2.2.2.3">
+                        <label name="storm"/>
+                        <label name="store"/>
+                    </label>
+                    <label name="lynx"/>
+                    <label name="MetaLabel 1.2.2.2.2">
+                        <label name="stairs"/>
+                        <label name="parade"/>
+                    </label>
+                </label>
+                <label name="MetaLabel 1.2.2.3">
+                    <label name="guard"/>
+                    <label name="slope"/>
+                    <label name="MetaLabel 1.2.2.3.2">
+                        <label name="jeep"/>
+                        <label name="cave"/>
+                    </label>
+                </label>
+            </label>
+            <label name="MetaLabel 1.2.1">
+                <label name="MetaLabel 1.2.1.1">
+                    <label name="MetaLabel 1.2.1.1.3">
+                        <label name="spider"/>
+                        <label name="tent"/>
+                    </label>
+                    <label name="blooms"/>
+                    <label name="MetaLabel 1.2.1.1.2">
+                        <label name="texture"/>
+                        <label name="kit"/>
+                    </label>
+                </label>
+                <label name="MetaLabel 1.2.1.2">
+                    <label name="smoke"/>
+                    <label name="MetaLabel 1.2.1.2.1">
+                        <label name="shade"/>
+                        <label name="iguana"/>
+                    </label>
+                    <label name="giraffe"/>
+                </label>
+                <label name="MetaLabel 1.2.1.3">
+                    <label name="MetaLabel 1.2.1.3.1">
+                        <label name="floor"/>
+                        <label name="cafe"/>
+                    </label>
+                    <label name="MetaLabel 1.2.1.3.2">
+                        <label name="tortoise"/>
+                        <label name="fawn"/>
+                    </label>
+                    <label name="log"/>
+                </label>
+            </label>
+        </label>
+        <label name="MetaLabel 1.1">
+            <label name="MetaLabel 1.1.1">
+                <label name="MetaLabel 1.1.1.3">
+                    <label name="MetaLabel 1.1.1.3.3">
+                        <label name="lichen"/>
+                        <label name="squirrel"/>
+                    </label>
+                    <label name="rodent"/>
+                    <label name="cow"/>
+                </label>
+                <label name="MetaLabel 1.1.1.1">
+                    <label name="pagoda"/>
+                    <label name="MetaLabel 1.1.1.1.2">
+                        <label name="dock"/>
+                        <label name="marsh"/>
+                    </label>
+                    <label name="MetaLabel 1.1.1.1.1">
+                        <label name="architecture"/>
+                        <label name="angelfish"/>
+                    </label>
+                </label>
+                <label name="MetaLabel 1.1.1.2">
+                    <label name="MetaLabel 1.1.1.2.3">
+                        <label name="railing"/>
+                        <label name="perch"/>
+                    </label>
+                    <label name="MetaLabel 1.1.1.2.1">
+                        <label name="detail"/>
+                        <label name="crops"/>
+                    </label>
+                    <label name="basket"/>
+                </label>
+            </label>
+            <label name="MetaLabel 1.1.2">
+                <label name="MetaLabel 1.1.2.2">
+                    <label name="MetaLabel 1.1.2.2.1">
+                        <label name="glacier"/>
+                        <label name="canal"/>
+                    </label>
+                    <label name="MetaLabel 1.1.2.2.2">
+                        <label name="lighthouse"/>
+                        <label name="pole"/>
+                    </label>
+                    <label name="man"/>
+                </label>
+                <label name="MetaLabel 1.1.2.3">
+                    <label name="MetaLabel 1.1.2.3.2">
+                        <label name="sheep"/>
+                        <label name="reptile"/>
+                    </label>
+                    <label name="MetaLabel 1.1.2.3.3">
+                        <label name="anemone"/>
+                        <label name="festival"/>
+                    </label>
+                    <label name="baby"/>
+                </label>
+                <label name="MetaLabel 1.1.2.1">
+                    <label name="lizard"/>
+                    <label name="pattern"/>
+                    <label name="MetaLabel 1.1.2.1.3">
+                        <label name="ceiling"/>
+                        <label name="oahu"/>
+                    </label>
+                </label>
+            </label>
+            <label name="MetaLabel 1.1.3">
+                <label name="MetaLabel 1.1.3.3">
+                    <label name="poppies"/>
+                    <label name="MetaLabel 1.1.3.3.3">
+                        <label name="sidewalk"/>
+                        <label name="autumn"/>
+                    </label>
+                    <label name="locomotive"/>
+                </label>
+                <label name="MetaLabel 1.1.3.1">
+                    <label name="MetaLabel 1.1.3.1.3">
+                        <label name="lake"/>
+                        <label name="display"/>
+                    </label>
+                    <label name="umbrella"/>
+                    <label name="MetaLabel 1.1.3.1.1">
+                        <label name="model"/>
+                        <label name="fruit"/>
+                    </label>
+                </label>
+                <label name="MetaLabel 1.1.3.2">
+                    <label name="MetaLabel 1.1.3.2.3">
+                        <label name="vegetables"/>
+                        <label name="pebbles"/>
+                    </label>
+                    <label name="column"/>
+                    <label name="MetaLabel 1.1.3.2.2">
+                        <label name="sponges"/>
+                        <label name="fan"/>
+                    </label>
+                </label>
+            </label>
+        </label>
+        <label name="MetaLabel 1.3">
+            <label name="MetaLabel 1.3.1">
+                <label name="MetaLabel 1.3.1.3">
+                    <label name="MetaLabel 1.3.1.3.3">
+                        <label name="rapids"/>
+                        <label name="canoe"/>
+                    </label>
+                    <label name="hands"/>
+                    <label name="MetaLabel 1.3.1.3.1">
+                        <label name="vines"/>
+                        <label name="plain"/>
+                    </label>
+                </label>
+                <label name="MetaLabel 1.3.1.2">
+                    <label name="MetaLabel 1.3.1.2.3">
+                        <label name="rockface"/>
+                        <label name="mushrooms"/>
+                    </label>
+                    <label name="dog"/>
+                    <label name="MetaLabel 1.3.1.2.1">
+                        <label name="orchid"/>
+                        <label name="room"/>
+                    </label>
+                </label>
+                <label name="MetaLabel 1.3.1.1">
+                    <label name="seals"/>
+                    <label name="MetaLabel 1.3.1.1.2">
+                        <label name="tails"/>
+                        <label name="nets"/>
+                    </label>
+                    <label name="cottage"/>
+                </label>
+            </label>
+            <label name="MetaLabel 1.3.3">
+                <label name="MetaLabel 1.3.3.3">
+                    <label name="MetaLabel 1.3.3.3.2">
+                        <label name="school"/>
+                        <label name="diver"/>
+                    </label>
+                    <label name="tables"/>
+                    <label name="MetaLabel 1.3.3.3.3">
+                        <label name="crab"/>
+                        <label name="shadows"/>
+                    </label>
+                </label>
+                <label name="MetaLabel 1.3.3.2">
+                    <label name="MetaLabel 1.3.3.2.2">
+                        <label name="ladder"/>
+                        <label name="pond"/>
+                    </label>
+                    <label name="MetaLabel 1.3.3.2.1">
+                        <label name="hawaii"/>
+                        <label name="paintings"/>
+                    </label>
+                    <label name="hillside"/>
+                </label>
+                <label name="MetaLabel 1.3.3.1">
+                    <label name="wolf"/>
+                    <label name="blossoms"/>
+                    <label name="MetaLabel 1.3.3.1.2">
+                        <label name="buddha"/>
+                        <label name="decoration"/>
+                    </label>
+                </label>
+            </label>
+            <label name="MetaLabel 1.3.2">
+                <label name="MetaLabel 1.3.2.1">
+                    <label name="MetaLabel 1.3.2.1.3">
+                        <label name="land"/>
+                        <label name="f-16"/>
+                    </label>
+                    <label name="island"/>
+                    <label name="MetaLabel 1.3.2.1.1">
+                        <label name="formation"/>
+                        <label name="monks"/>
+                    </label>
+                </label>
+                <label name="MetaLabel 1.3.2.3">
+                    <label name="railroad"/>
+                    <label name="MetaLabel 1.3.2.3.2">
+                        <label name="frozen"/>
+                        <label name="harvest"/>
+                    </label>
+                    <label name="MetaLabel 1.3.2.3.1">
+                        <label name="sunrise"/>
+                        <label name="landscape"/>
+                    </label>
+                </label>
+                <label name="MetaLabel 1.3.2.2">
+                    <label name="plaza"/>
+                    <label name="jet"/>
+                    <label name="windmills"/>
+                </label>
+            </label>
+        </label>
+    </label>
+    <label name="MetaLabel 2">
+        <label name="MetaLabel 2.1">
+            <label name="MetaLabel 2.1.3">
+                <label name="MetaLabel 2.1.3.1">
+                    <label name="MetaLabel 2.1.3.1.1">
+                        <label name="wings"/>
+                        <label name="race"/>
+                    </label>
+                    <label name="ocean"/>
+                    <label name="MetaLabel 2.1.3.1.3">
+                        <label name="reefs"/>
+                        <label name="trail"/>
+                    </label>
+                </label>
+                <label name="MetaLabel 2.1.3.2">
+                    <label name="bear"/>
+                    <label name="MetaLabel 2.1.3.2.3">
+                        <label name="close-up"/>
+                        <label name="pottery"/>
+                    </label>
+                    <label name="polar"/>
+                </label>
+                <label name="MetaLabel 2.1.3.3">
+                    <label name="snow"/>
+                    <label name="MetaLabel 2.1.3.3.3">
+                        <label name="temple"/>
+                        <label name="ruins"/>
+                    </label>
+                    <label name="plants"/>
+                </label>
+            </label>
+            <label name="MetaLabel 2.1.2">
+                <label name="MetaLabel 2.1.2.3">
+                    <label name="MetaLabel 2.1.2.3.3">
+                        <label name="military"/>
+                        <label name="vegetation"/>
+                    </label>
+                    <label name="MetaLabel 2.1.2.3.2">
+                        <label name="shrubs"/>
+                        <label name="mast"/>
+                    </label>
+                    <label name="hats"/>
+                </label>
+                <label name="MetaLabel 2.1.2.1">
+                    <label name="stone"/>
+                    <label name="MetaLabel 2.1.2.1.3">
+                        <label name="mule"/>
+                        <label name="leaf"/>
+                    </label>
+                    <label name="MetaLabel 2.1.2.1.1">
+                        <label name="ice"/>
+                        <label name="frost"/>
+                    </label>
+                </label>
+                <label name="MetaLabel 2.1.2.2">
+                    <label name="MetaLabel 2.1.2.2.1">
+                        <label name="cars"/>
+                        <label name="tracks"/>
+                    </label>
+                    <label name="woman"/>
+                    <label name="turn"/>
+                </label>
+            </label>
+            <label name="MetaLabel 2.1.1">
+                <label name="MetaLabel 2.1.1.3">
+                    <label name="horizon"/>
+                    <label name="MetaLabel 2.1.1.3.2">
+                        <label name="stems"/>
+                        <label name="needles"/>
+                    </label>
+                    <label name="MetaLabel 2.1.1.3.1">
+                        <label name="carpet"/>
+                        <label name="moss"/>
+                    </label>
+                </label>
+                <label name="MetaLabel 2.1.1.2">
+                    <label name="pack"/>
+                    <label name="MetaLabel 2.1.1.2.2">
+                        <label name="deer"/>
+                        <label name="white-tailed"/>
+                    </label>
+                    <label name="furniture"/>
+                </label>
+                <label name="MetaLabel 2.1.1.1">
+                    <label name="petals"/>
+                    <label name="MetaLabel 2.1.1.1.1">
+                        <label name="sunset"/>
+                        <label name="black"/>
+                    </label>
+                    <label name="MetaLabel 2.1.1.1.3">
+                        <label name="arch"/>
+                        <label name="park"/>
+                    </label>
+                </label>
+            </label>
+        </label>
+        <label name="MetaLabel 2.3">
+            <label name="MetaLabel 2.3.3">
+                <label name="MetaLabel 2.3.3.2">
+                    <label name="MetaLabel 2.3.3.2.1">
+                        <label name="canyon"/>
+                        <label name="steps"/>
+                    </label>
+                    <label name="MetaLabel 2.3.3.2.3">
+                        <label name="antlers"/>
+                        <label name="museum"/>
+                    </label>
+                    <label name="door"/>
+                </label>
+                <label name="MetaLabel 2.3.3.3">
+                    <label name="shrine"/>
+                    <label name="sculpture"/>
+                    <label name="MetaLabel 2.3.3.3.3">
+                        <label name="fence"/>
+                        <label name="stream"/>
+                    </label>
+                </label>
+                <label name="MetaLabel 2.3.3.1">
+                    <label name="MetaLabel 2.3.3.1.2">
+                        <label name="rose"/>
+                        <label name="bay"/>
+                    </label>
+                    <label name="MetaLabel 2.3.3.1.1">
+                        <label name="outside"/>
+                        <label name="dance"/>
+                    </label>
+                    <label name="ceremony"/>
+                </label>
+            </label>
+            <label name="MetaLabel 2.3.2">
+                <label name="MetaLabel 2.3.2.3">
+                    <label name="MetaLabel 2.3.2.3.3">
+                        <label name="waves"/>
+                        <label name="bush"/>
+                    </label>
+                    <label name="MetaLabel 2.3.2.3.2">
+                        <label name="wood"/>
+                        <label name="fish"/>
+                    </label>
+                    <label name="courtyard"/>
+                </label>
+                <label name="MetaLabel 2.3.2.1">
+                    <label name="MetaLabel 2.3.2.1.2">
+                        <label name="booby"/>
+                        <label name="palm"/>
+                    </label>
+                    <label name="MetaLabel 2.3.2.1.1">
+                        <label name="prayer"/>
+                        <label name="sea"/>
+                    </label>
+                    <label name="light"/>
+                </label>
+                <label name="MetaLabel 2.3.2.2">
+                    <label name="harbor"/>
+                    <label name="sign"/>
+                    <label name="MetaLabel 2.3.2.2.3">
+                        <label name="doorway"/>
+                        <label name="giant"/>
+                    </label>
+                </label>
+            </label>
+            <label name="MetaLabel 2.3.1">
+                <label name="MetaLabel 2.3.1.1">
+                    <label name="elk"/>
+                    <label name="cliff"/>
+                    <label name="MetaLabel 2.3.1.1.3">
+                        <label name="hawk"/>
+                        <label name="sails"/>
+                    </label>
+                </label>
+                <label name="MetaLabel 2.3.1.3">
+                    <label name="prototype"/>
+                    <label name="MetaLabel 2.3.1.3.1">
+                        <label name="bengal"/>
+                        <label name="art"/>
+                    </label>
+                    <label name="MetaLabel 2.3.1.3.3">
+                        <label name="penguin"/>
+                        <label name="caribou"/>
+                    </label>
+                </label>
+                <label name="MetaLabel 2.3.1.2">
+                    <label name="helicopter"/>
+                    <label name="MetaLabel 2.3.1.2.3">
+                        <label name="goat"/>
+                        <label name="butterfly"/>
+                    </label>
+                    <label name="MetaLabel 2.3.1.2.1">
+                        <label name="animals"/>
+                        <label name="insect"/>
+                    </label>
+                </label>
+            </label>
+        </label>
+        <label name="MetaLabel 2.2">
+            <label name="MetaLabel 2.2.3">
+                <label name="MetaLabel 2.2.3.2">
+                    <label name="hut"/>
+                    <label name="MetaLabel 2.2.3.2.1">
+                        <label name="prop"/>
+                        <label name="vendor"/>
+                    </label>
+                    <label name="MetaLabel 2.2.3.2.3">
+                        <label name="star"/>
+                        <label name="post"/>
+                    </label>
+                </label>
+                <label name="MetaLabel 2.2.3.1">
+                    <label name="MetaLabel 2.2.3.1.3">
+                        <label name="saguaro"/>
+                        <label name="chrysanthemums"/>
+                    </label>
+                    <label name="MetaLabel 2.2.3.1.1">
+                        <label name="lion"/>
+                        <label name="athlete"/>
+                    </label>
+                    <label name="den"/>
+                </label>
+                <label name="MetaLabel 2.2.3.3">
+                    <label name="MetaLabel 2.2.3.3.1">
+                        <label name="leopard"/>
+                        <label name="snake"/>
+                    </label>
+                    <label name="field"/>
+                    <label name="figures"/>
+                </label>
+            </label>
+            <label name="MetaLabel 2.2.2">
+                <label name="MetaLabel 2.2.2.1">
+                    <label name="MetaLabel 2.2.2.1.2">
+                        <label name="flight"/>
+                        <label name="remains"/>
+                    </label>
+                    <label name="MetaLabel 2.2.2.1.1">
+                        <label name="cactus"/>
+                        <label name="interior"/>
+                    </label>
+                    <label name="pyramid"/>
+                </label>
+                <label name="MetaLabel 2.2.2.3">
+                    <label name="plane"/>
+                    <label name="grizzly"/>
+                    <label name="MetaLabel 2.2.2.3.1">
+                        <label name="clearing"/>
+                        <label name="silhouette"/>
+                    </label>
+                </label>
+                <label name="MetaLabel 2.2.2.2">
+                    <label name="MetaLabel 2.2.2.2.2">
+                        <label name="lily"/>
+                        <label name="fall"/>
+                    </label>
+                    <label name="sailboats"/>
+                    <label name="MetaLabel 2.2.2.2.1">
+                        <label name="fog"/>
+                        <label name="pots"/>
+                    </label>
+                </label>
+            </label>
+            <label name="MetaLabel 2.2.1">
+                <label name="MetaLabel 2.2.1.2">
+                    <label name="MetaLabel 2.2.1.2.2">
+                        <label name="range"/>
+                        <label name="vehicle"/>
+                    </label>
+                    <label name="MetaLabel 2.2.1.2.1">
+                        <label name="dall"/>
+                        <label name="albatross"/>
+                    </label>
+                    <label name="row"/>
+                </label>
+                <label name="MetaLabel 2.2.1.1">
+                    <label name="MetaLabel 2.2.1.1.3">
+                        <label name="chapel"/>
+                        <label name="crafts"/>
+                    </label>
+                    <label name="MetaLabel 2.2.1.1.1">
+                        <label name="tusks"/>
+                        <label name="pair"/>
+                    </label>
+                    <label name="cubs"/>
+                </label>
+                <label name="MetaLabel 2.2.1.3">
+                    <label name="foals"/>
+                    <label name="MetaLabel 2.2.1.3.3">
+                        <label name="face"/>
+                        <label name="tulip"/>
+                    </label>
+                    <label name="tundra"/>
+                </label>
+            </label>
+        </label>
+    </label>
+    <label name="MetaLabel 3">
+        <label name="MetaLabel 3.3">
+            <label name="MetaLabel 3.3.2">
+                <label name="MetaLabel 3.3.2.1">
+                    <label name="monastery"/>
+                    <label name="MetaLabel 3.3.2.1.3">
+                        <label name="palace"/>
+                        <label name="crowd"/>
+                    </label>
+                    <label name="scotland"/>
+                </label>
+                <label name="MetaLabel 3.3.2.3">
+                    <label name="MetaLabel 3.3.2.3.3">
+                        <label name="facade"/>
+                        <label name="fly"/>
+                    </label>
+                    <label name="bulls"/>
+                    <label name="MetaLabel 3.3.2.3.2">
+                        <label name="food"/>
+                        <label name="fountain"/>
+                    </label>
+                </label>
+                <label name="MetaLabel 3.3.2.2">
+                    <label name="bridge"/>
+                    <label name="MetaLabel 3.3.2.2.1">
+                        <label name="herd"/>
+                        <label name="dunes"/>
+                    </label>
+                    <label name="MetaLabel 3.3.2.2.3">
+                        <label name="coral"/>
+                        <label name="zebra"/>
+                    </label>
+                </label>
+            </label>
+            <label name="MetaLabel 3.3.3">
+                <label name="MetaLabel 3.3.3.3">
+                    <label name="MetaLabel 3.3.3.3.2">
+                        <label name="horses"/>
+                        <label name="mare"/>
+                    </label>
+                    <label name="pool"/>
+                    <label name="monument"/>
+                </label>
+                <label name="MetaLabel 3.3.3.1">
+                    <label name="gate"/>
+                    <label name="MetaLabel 3.3.3.1.1">
+                        <label name="clothes"/>
+                        <label name="buddhist"/>
+                    </label>
+                    <label name="MetaLabel 3.3.3.1.3">
+                        <label name="flag"/>
+                        <label name="ships"/>
+                    </label>
+                </label>
+                <label name="MetaLabel 3.3.3.2">
+                    <label name="MetaLabel 3.3.3.2.2">
+                        <label name="glass"/>
+                        <label name="drum"/>
+                    </label>
+                    <label name="MetaLabel 3.3.3.2.1">
+                        <label name="boeing"/>
+                        <label name="path"/>
+                    </label>
+                    <label name="farms"/>
+                </label>
+            </label>
+            <label name="MetaLabel 3.3.1">
+                <label name="MetaLabel 3.3.1.2">
+                    <label name="MetaLabel 3.3.1.2.3">
+                        <label name="marine"/>
+                        <label name="church"/>
+                    </label>
+                    <label name="MetaLabel 3.3.1.2.1">
+                        <label name="rice"/>
+                        <label name="balcony"/>
+                    </label>
+                    <label name="branch"/>
+                </label>
+                <label name="MetaLabel 3.3.1.1">
+                    <label name="statue"/>
+                    <label name="window"/>
+                    <label name="MetaLabel 3.3.1.1.3">
+                        <label name="market"/>
+                        <label name="town"/>
+                    </label>
+                </label>
+                <label name="MetaLabel 3.3.1.3">
+                    <label name="MetaLabel 3.3.1.3.3">
+                        <label name="shops"/>
+                        <label name="castle"/>
+                    </label>
+                    <label name="MetaLabel 3.3.1.3.2">
+                        <label name="reflection"/>
+                        <label name="nest"/>
+                    </label>
+                    <label name="birds"/>
+                </label>
+            </label>
+        </label>
+        <label name="MetaLabel 3.2">
+            <label name="MetaLabel 3.2.3">
+                <label name="MetaLabel 3.2.3.2">
+                    <label name="MetaLabel 3.2.3.2.3">
+                        <label name="tower"/>
+                        <label name="indian"/>
+                    </label>
+                    <label name="MetaLabel 3.2.3.2.2">
+                        <label name="carvings"/>
+                        <label name="aerial"/>
+                    </label>
+                    <label name="coyote"/>
+                </label>
+                <label name="MetaLabel 3.2.3.3">
+                    <label name="roofs"/>
+                    <label name="moose"/>
+                    <label name="MetaLabel 3.2.3.3.1">
+                        <label name="crystals"/>
+                        <label name="steel"/>
+                    </label>
+                </label>
+                <label name="MetaLabel 3.2.3.1">
+                    <label name="garden"/>
+                    <label name="MetaLabel 3.2.3.1.1">
+                        <label name="tiger"/>
+                        <label name="cat"/>
+                    </label>
+                    <label name="MetaLabel 3.2.3.1.2">
+                        <label name="hills"/>
+                        <label name="sun"/>
+                    </label>
+                </label>
+            </label>
+            <label name="MetaLabel 3.2.1">
+                <label name="MetaLabel 3.2.1.1">
+                    <label name="mountain"/>
+                    <label name="street"/>
+                    <label name="MetaLabel 3.2.1.1.3">
+                        <label name="rocks"/>
+                        <label name="hotel"/>
+                    </label>
+                </label>
+                <label name="MetaLabel 3.2.1.2">
+                    <label name="MetaLabel 3.2.1.2.3">
+                        <label name="formula"/>
+                        <label name="mist"/>
+                    </label>
+                    <label name="house"/>
+                    <label name="tree"/>
+                </label>
+                <label name="MetaLabel 3.2.1.3">
+                    <label name="grass"/>
+                    <label name="MetaLabel 3.2.1.3.3">
+                        <label name="river"/>
+                        <label name="buildings"/>
+                    </label>
+                    <label name="people"/>
+                </label>
+            </label>
+            <label name="MetaLabel 3.2.2">
+                <label name="MetaLabel 3.2.2.1">
+                    <label name="MetaLabel 3.2.2.1.1">
+                        <label name="costume"/>
+                        <label name="flowers"/>
+                    </label>
+                    <label name="beach"/>
+                    <label name="MetaLabel 3.2.2.1.3">
+                        <label name="meadow"/>
+                        <label name="valley"/>
+                    </label>
+                </label>
+                <label name="MetaLabel 3.2.2.2">
+                    <label name="sky"/>
+                    <label name="night"/>
+                    <label name="MetaLabel 3.2.2.2.3">
+                        <label name="peaks"/>
+                        <label name="straightaway"/>
+                    </label>
+                </label>
+                <label name="MetaLabel 3.2.2.3">
+                    <label name="water"/>
+                    <label name="MetaLabel 3.2.2.3.2">
+                        <label name="boats"/>
+                        <label name="pillar"/>
+                    </label>
+                    <label name="MetaLabel 3.2.2.3.3">
+                        <label name="clouds"/>
+                        <label name="sand"/>
+                    </label>
+                </label>
+            </label>
+        </label>
+        <label name="MetaLabel 3.1">
+            <label name="MetaLabel 3.1.1">
+                <label name="MetaLabel 3.1.1.3">
+                    <label name="MetaLabel 3.1.1.3.1">
+                        <label name="mosque"/>
+                        <label name="writing"/>
+                    </label>
+                    <label name="elephant"/>
+                    <label name="MetaLabel 3.1.1.3.2">
+                        <label name="cheese"/>
+                        <label name="calf"/>
+                    </label>
+                </label>
+                <label name="MetaLabel 3.1.1.1">
+                    <label name="MetaLabel 3.1.1.1.3">
+                        <label name="rabbit"/>
+                        <label name="rainbow"/>
+                    </label>
+                    <label name="MetaLabel 3.1.1.1.2">
+                        <label name="moon"/>
+                        <label name="african"/>
+                    </label>
+                    <label name="stick"/>
+                </label>
+                <label name="MetaLabel 3.1.1.2">
+                    <label name="MetaLabel 3.1.1.2.2">
+                        <label name="mural"/>
+                        <label name="restaurant"/>
+                    </label>
+                    <label name="girl"/>
+                    <label name="coast"/>
+                </label>
+            </label>
+            <label name="MetaLabel 3.1.3">
+                <label name="MetaLabel 3.1.3.3">
+                    <label name="fox"/>
+                    <label name="MetaLabel 3.1.3.3.3">
+                        <label name="arctic"/>
+                        <label name="pepper"/>
+                    </label>
+                    <label name="cathedral"/>
+                </label>
+                <label name="MetaLabel 3.1.3.2">
+                    <label name="shell"/>
+                    <label name="MetaLabel 3.1.3.2.2">
+                        <label name="shirt"/>
+                        <label name="grouper"/>
+                    </label>
+                    <label name="MetaLabel 3.1.3.2.1">
+                        <label name="eagle"/>
+                        <label name="terrace"/>
+                    </label>
+                </label>
+                <label name="MetaLabel 3.1.3.1">
+                    <label name="MetaLabel 3.1.3.1.3">
+                        <label name="winter"/>
+                        <label name="trunk"/>
+                    </label>
+                    <label name="MetaLabel 3.1.3.1.2">
+                        <label name="dress"/>
+                        <label name="dust"/>
+                    </label>
+                    <label name="antelope"/>
+                </label>
+            </label>
+            <label name="MetaLabel 3.1.2">
+                <label name="MetaLabel 3.1.2.1">
+                    <label name="head"/>
+                    <label name="MetaLabel 3.1.2.1.3">
+                        <label name="road"/>
+                        <label name="shore"/>
+                    </label>
+                    <label name="MetaLabel 3.1.2.1.2">
+                        <label name="desert"/>
+                        <label name="sphinx"/>
+                    </label>
+                </label>
+                <label name="MetaLabel 3.1.2.2">
+                    <label name="train"/>
+                    <label name="MetaLabel 3.1.2.2.3">
+                        <label name="skyline"/>
+                        <label name="designs"/>
+                    </label>
+                    <label name="ground"/>
+                </label>
+                <label name="MetaLabel 3.1.2.3">
+                    <label name="MetaLabel 3.1.2.3.3">
+                        <label name="village"/>
+                        <label name="forest"/>
+                    </label>
+                    <label name="MetaLabel 3.1.2.3.1">
+                        <label name="city"/>
+                        <label name="swimmers"/>
+                    </label>
+                    <label name="wall"/>
+                </label>
+            </label>
+        </label>
+    </label>
+</labels>

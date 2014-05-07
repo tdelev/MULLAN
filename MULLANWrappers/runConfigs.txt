@@ -1,0 +1,5 @@
+//with already bild heerarchy, where datasets\scene (scene.arff) is the dataset that should be converted to hierarchical and datasets\sceneH (sceneH.xml) is the hierarchy
+datasets\scene -L datasets\sceneH -C
+
+//without a hierarchy, build hierarchy according to BalancedClustering method (k=3) apply it to scene dataset and save the dataset (-C) and the hierarchy (-X) also
+datasets\scene -M BalancedClustering 3 -X -S -C
